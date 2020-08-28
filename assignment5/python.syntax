@@ -1,0 +1,11 @@
+"(#.*)": comment
+"("""(.|\n)*?[^\\]"""|""(.|\n)*?[^\\]""|'(.|\n)*?[^\\]'|"(.|\n)*?[^\\]")": string 
+"(\bimport\b\s*)(?:\w+\s*)|((\bfrom\b )(?:\w+\s*))": import 
+"(\bwhile\b\s*)(?:\(\s*)?(?:\w+\s*|\w+\s*(?:==|!=|<>|>|<|>=|<=)\s*\w+)(?:\s*\))?(?::)": while_loop
+"(\bif\b|\belif\b|\belse\b)": if_elif_else
+"(\bfor )(?:\w+(?:\s*,\s*\w+)*?)( in )(?:\w+(?:\.\w+)*)(?:(?:\(.*?\)))*:": for_loop
+"(\bTrue\b|\bNone\b|\bFalse\b)": special_form
+"(\bdef\s+)(?:\w+\s*)(?:\(.*?\):)": def
+"(\@\w+)(?:\((?:(?:\s*\w+\s*)+[\=,]?)*\))?": decorator
+"return ": return
+"(\btry\b)|(\bexcept\b)": try_except

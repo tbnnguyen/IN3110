@@ -1,0 +1,10 @@
+"//.*(?:$|\n)": comment
+"\/\*.*\*\/": multiline-comment
+"(\".*\")": string
+"\bimport\b\s*\s.*": import
+"(\bfor\b\s*)\(.*\)": for-loop
+"(\bwhile\b\s*)\(.*\)": while-loop
+"(\bif\b|\belse\b)": if-else-elseif
+"(\btrue\b|\bfalse\b)": special-form
+"(\btry)|(\bcatch)": try-catch
+"\bSystem\.out\.println\(.*\)": print-line

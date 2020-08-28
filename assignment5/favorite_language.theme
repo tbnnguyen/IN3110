@@ -1,0 +1,10 @@
+comment: 38;5;22
+multiline-comment: 38;5;22
+string: 38;5;209
+import: 38;5;27
+for-loop: 38;5;97
+while-loop: 38;5;97
+if-else-elseif: 38;5;97
+special-form: 38;5;27
+try-catch: 38;5;97
+print-line: 38;5;226

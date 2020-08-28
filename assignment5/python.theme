@@ -1,0 +1,11 @@
+comment: 38;5;22
+string: 38;5;130
+import: 38;5;169
+while_loop: 38;5;169
+if_elif_else: 38;5;169
+for_loop: 38;5;169
+special_form: 38;5;26
+def: 38;5;25
+decorator: 38;5;228
+return: 38;5;169
+try_except: 38;5;169
