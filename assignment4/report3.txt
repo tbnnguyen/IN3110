@@ -1,0 +1,11 @@
+The picture used is the default size of "beatles.jpg" which has size of (480, 640, 3) 
+
+Running the function 10 times with timeit took 1.52 sec, compared to 59.61 sec with 
+function in "blur_1.py" and the same image. Numba is a bit slower than Numpy that used
+0.42 sec. Note that the first run is a lot slower than the consecutive runs.
+
+Advantages with Numba is that is easy to use, as it doesn't require you to modify the code 
+in the first script (blur_1).
+
+Disadvantages is that it "works like magic" which can make it difficult to bugtest and 
+creates an extra dependency.

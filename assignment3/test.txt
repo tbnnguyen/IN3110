@@ -1,0 +1,3 @@
+This is a text
+To test if the script works
+Hoorah it does

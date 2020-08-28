@@ -1,0 +1,4 @@
+The picture used is the default size of "beatles.jpg" which has size of (480, 640, 3) 
+
+Running the function 10 times with timeit took 0.42 sec, compared to 59.61 sec with 
+function in "blur_1.py" and the same image.
